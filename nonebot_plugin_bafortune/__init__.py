@@ -1,12 +1,12 @@
 from nonebot.plugin import PluginMetadata, inherit_supported_adapters, require
+require("nonebot_plugin_localstore")
+require("nonebot_plugin_uninfo")
+require("nonebot_plugin_alconna")
+
 from nonebot.permission import SUPERUSER
 from . import config, api, data
 import random
 import time
-
-require("nonebot_plugin_localstore")
-require("nonebot_plugin_uninfo")
-require("nonebot_plugin_alconna")
 
 from nonebot_plugin_alconna import on_alconna
 from nonebot_plugin_alconna.uniseg import Image, At, UniMessage
