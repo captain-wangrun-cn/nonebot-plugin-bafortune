@@ -61,4 +61,4 @@ if api == "none":
 详细请看插件主页：
 https://github.com/captain-wangrun-cn/nonebot-plugin-bafortune
 """
-        logger.error(msg)
+        logger.warning(msg)
