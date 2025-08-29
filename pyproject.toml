@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "nonebot_plugin_bafortune"
-version = "1.0.6"
+version = "1.0.0"
 description = "蔚蓝档案今日运势插件, BlueArchive fortune plugin"
 authors = ["WR <wangrun114514@foxmail.com>"]
 license = "GPL-3.0"
